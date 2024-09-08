@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(41, 3, 3);
+    
+}
+form{
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff1a;
+    border: 1px solid #ffffff20;
+    backdrop-filter: blur(16px) saturate(120%);
+    border-radius: 12px;
+    height: 261px;
+    width: 333px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.788);
+   
+
+  
+}
+.logo{
+   
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-color: rgba(152, 152, 255, 0.342);
+    border-radius: 50%;
+    top: -33%;
+    left: 34%;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.788);
+
+    
+   
+}
+.email{
+   position: relative;
+   top: 55px;
+   
+   
+
+
+}
+form #email{
+    font-size: 1.2rem;
+    height: 40px;
+    /* text-align: center; */
+    padding-left: 15px;
+    text-transform: uppercase; 
+}
+.password{
+    position: relative;
+    top: 85px;
+  
+    
+
+ 
+}
+form #password{
+    font-size: 1.2rem;
+    height: 40px;
+    /* text-align: center; */
+    padding-left: 15px;
+    text-transform: uppercase; 
+
+    
+}
+
+
+.email label{
+    background-color: rgba(152, 152, 255, 0.342);
+    padding: 12px;
+    color: white;
+}
+
+
+
+
+
+.password label{
+background-color: rgba(152, 152, 255, 0.342);
+    padding: 12px;
+    color: white;
+}
+
+.bu button{
+    display: inline-block;
+    position: relative;
+    background-color: rgba(152, 152, 255, 0.342);
+    width: 288px;
+    height: 53px;
+    top: 150px;
+    left: -307px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    /* box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.788); */
+    border: 1px solid rgba(152, 152, 255, 0.342);
+ 
+    
+}
+
+
+
+
+.logo i{
+      color: aliceblue;
+      margin-top: 40px;
+      font-size: 3.5rem;
+      
+
+}
+.che{
+    display: inline-block;
+    position: relative;
+    top: 113px;
+    left: -28px;
+
+}
+.che label{
+    color: white;
+}
+.ancor{
+   
+    display: inline-block;
+   position: relative;
+   top: 112px;
+   left: 30px;
+    
+}
+.ancor a{
+    color: white;
+}
+.bu button:hover{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+form:hover{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.logo:hover{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+a:hover{
+    color: red;
+}
+.che label:hover{
+    color: red;
+}
